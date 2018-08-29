@@ -1,0 +1,66 @@
+
+html { font-size:100%; }
+img { max-width: 100%; }
+
+
+@media (min-width: 640px) { body {font-size:1rem;} } 
+@media (min-width:960px) { body {font-size:1.2rem;} } 
+@media (min-width:1100px) { body {font-size:1.5rem;} }
+
+@media only screen and (max-width: 640px) {
+    body {
+        background-color: lightblue;
+    }
+}
+@media only screen and (max-width: 960px) {
+    body {
+        background-color: red;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    body {
+        background-color: green;
+    }
+}
+
+#nav {
+	background-color: #56B2FE;
+	color: #E2FBFF;
+	padding: 20px;
+	text-align: center;
+	width: 100%;
+}
+
+
+#register {
+	background-color: #FFFFFF;
+	color: #76448A;
+	padding: 50px;
+	text-align: center;
+	border-radius: 3px;
+	border-color: black;
+}
+
+.fields {
+	margin: 10px;
+
+}
+
+input {
+	border-color: #000000;
+	padding: 5px;
+	border-width: 1px;
+}
+
+#submit {
+	background-color: #4E54FF;
+	color: #FFFFFF;
+	font-weight: bold;
+	border-radius: 4px;
+}
+
+
+
+
+
+

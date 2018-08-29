@@ -1,0 +1,36 @@
+#nav {
+	background-color: #56B2FE;
+	color: #E2FBFF;
+	padding: 20px;
+	text-align: center;
+}
+
+
+#register {
+	background-color: #FFFFFF;
+	color: #76448A;
+	padding: 50px;
+	text-align: center;
+	border-radius: 3px;
+	border-color: black;
+}
+
+.fields {
+	margin: 10px;
+
+}
+
+input {
+	border-color: #000000;
+	padding: 5px;
+	border-width: 1px;
+}
+
+#submit {
+	background-color: #4E54FF;
+	color: #FFFFFF;
+	font-weight: bold;
+	border-radius: 4px;
+}
+
+
